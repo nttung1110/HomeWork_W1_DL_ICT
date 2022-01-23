@@ -110,7 +110,7 @@ if __name__ == "__main__":
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.02)
 
-    wandb.init(project='Official_v4_HomeworkDL', entity='nttung1110')
+    wandb.init(project='Official_v5_HomeworkDL', entity='nttung1110')
     wandb.watch(model, log_freq=100)
 
     print("Training with configuration:", cfg_train)

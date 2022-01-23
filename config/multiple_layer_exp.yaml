@@ -1,7 +1,6 @@
 # exp 1
-use_dropout: False
+# use_dropout: False
 
-# exp 2
+# # exp 2
 use_dropout: True
 drop_out_rate: 0.2
-  
